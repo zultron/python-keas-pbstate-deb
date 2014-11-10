@@ -1,0 +1,7 @@
+Debian packaging for keas.pbstate
+
+Links:
+https://pypi.python.org/pypi/keas.pbstate/0.1.1
+http://shane.willowrise.com/archives/keaspbpersist-and-keaspbstate/
+http://shane.willowrise.com/archives/zodb-protobuf-looking-good/
+http://shane.willowrise.com/archives/zodb-with-protocol-buffers/

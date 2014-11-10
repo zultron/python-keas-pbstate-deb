@@ -1,0 +1,31 @@
+Source: python-keas-pbstate
+Maintainer: John Morris <john@zultron.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-keas-pbstate
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: An object database foundation based on Google's Protocol Buf
+ .
+ Overview
+ ========
+ .
+ Google's Protocol Buffers project provides an interesting way to serialize
+ data.  Protocol Buffer messages are efficient to produce and parse, flexible
+ enough to weather schema changes, fairly expressive, and are usable in
+ several programming languages.
+ .
+ What if we combined those properties with an object database?  Object
+ databases often provide an excellent software foundation.  Unfortunately,
+ object databases are generally bound to a single programming language.
+ This package provides object serialization using Protocol Buffers,
+ conceivably making it possible to build an object database that
+ multiple programming languages can access.
+ .
+ Using this package also provides schema documentation.  The Protocol Buffers
+ package requires programmers to write the schema of their data in a
+ concise form that also serves as documentation of the schema.  While it's
+ usually possible to guess at the schema by looking at application
